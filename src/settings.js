@@ -30,10 +30,6 @@ module.exports = {
       name: 'Czech Republic',
     },
     {
-      code: 'cz',
-      name: 'Czech Republic',
-    },
-    {
       code: 'de',
       name: 'Germany',
     },
