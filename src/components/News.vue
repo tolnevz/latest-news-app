@@ -68,7 +68,7 @@ export default {
   methods: {
     getNews(){
       axios
-        .get('http://newsapi.org/v2/top-headlines?q='+ this.keyword +'&country='+ this.selectedCountry +'&category='+ this.selectedCategory +'&apiKey=' + newsApi)
+        .get('https://newsapi.org/v2/top-headlines?q='+ this.keyword +'&country='+ this.selectedCountry +'&category='+ this.selectedCategory +'&apiKey=' + newsApi)
         .then(response => (this.news = response.data.articles));
     }
   },

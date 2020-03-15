@@ -1,5 +1,8 @@
 # news-app
 
+### Demo
+Demo [here](https://agitated-stonebraker-8ce130.netlify.com/).
+
 ## Project setup
 ```
 npm install
