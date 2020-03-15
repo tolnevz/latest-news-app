@@ -1,5 +1,7 @@
 # news-app
 
+News App created with VueJS and Axios
+
 ### Demo
 Demo [here](https://agitated-stonebraker-8ce130.netlify.com/).
 
@@ -17,11 +19,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

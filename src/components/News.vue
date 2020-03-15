@@ -44,7 +44,7 @@
         </a>
       </div>
     </div>
-
+    <p class="text-center powered-by">Powered by <a href="https://newsapi.org/">NewsAPI.org</a></p>
   </div>
 </template>
 
