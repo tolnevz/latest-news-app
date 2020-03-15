@@ -1,0 +1,41 @@
+@media screen and (max-width: 991px)
+  .container
+    width: 98%
+
+  .properties form
+    grid-template-columns: 1fr
+
+    .form-item
+
+      input
+        width: 96%
+      
+      select
+        width: 99%
+
+@media screen and (max-width: 600px)
+  .news 
+    padding: 15px
+
+    .news-item a
+      grid-template-columns: 1fr
+      grid-gap: 10px
+
+      .content
+        padding: 20px 10px
+        min-height: 180px
+        display: grid
+
+        .source
+          flex-direction: column
+          align-items: center
+
+          .date
+            margin-bottom: 10px
+
+      .image
+        width: 100%
+        height: 250px
+        background-position: center
+        background-size: cover
+        background-repeat: no-repeat
