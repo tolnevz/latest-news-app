@@ -67,9 +67,10 @@ export default {
   },
   methods: {
     getNews(){
+      let url = 'http://localhost:8080/v2/top-headlines?q='+ this.keyword +'&country='+ this.selectedCountry +'&category='+ this.selectedCategory +'&apiKey=' + newsApi;
+
       axios
-        .get('https://newsapi.org/v2/top-headlines?q='+ this.keyword +'&country='+ this.selectedCountry +'&category='+ this.selectedCategory +'&apiKey=' + newsApi)
-        .then(response => (this.news = response.data.articles));
+        .get(url).then(response => (this.news = response.data.articles));
     }
   },
   mounted() {
