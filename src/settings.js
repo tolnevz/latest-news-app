@@ -1,5 +1,5 @@
 module.exports = {
-  newsApi: 'caa06c1f692a4fef9f384ab3c6051e57',
+  newsApi: 'your-api',
   countriesList: [
     {
       code: 'at',
