@@ -67,7 +67,7 @@ export default {
   },
   methods: {
     getNews(){
-      let url = 'http://localhost:8080/v2/top-headlines?q='+ this.keyword +'&country='+ this.selectedCountry +'&category='+ this.selectedCategory +'&apiKey=' + newsApi;
+      let url = 'https://agitated-stonebraker-8ce130.netlify.app/v2/top-headlines?q='+ this.keyword +'&country='+ this.selectedCountry +'&category='+ this.selectedCategory +'&apiKey=' + newsApi;
 
       axios
         .get(url).then(response => (this.news = response.data.articles));
